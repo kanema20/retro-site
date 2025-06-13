@@ -14,12 +14,11 @@ function About() {
                     maxHeight: "60vh",
                 }}
             >
-                <h2>Ideal Labs</h2>
+                <h2>netbǒrn</h2>
                 <p>
-                    We are building the ETF network, enabling <b>publicly verifiable onchain randomness</b>,
-                    <b>timelock encryption</b>, and <b>secure delayed transactions</b>.
+                   We are the kids of the <b>internet</b>.
                     <br/><br/>
-                    Check out the <a target='_blank' rel="noreferrer" href='https://etf.idealabs.network'>docs</a> to get started.
+                    Check out the <a target='_blank' rel="noreferrer" href='https://netborn.network'>site</a> to get started.
                 </p>
 
                 <p>

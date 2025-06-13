@@ -8,7 +8,7 @@ export default function WebsiteTaskbar(props) {
     const handleClick = (x) => {
         switch(x) {
           case 'terrabit':
-            window.open('https://terrabit.idealabs.network');
+            window.open('https://netborn.network');
             break;
           default:
             EventEmitter.dispatch(x, true);
@@ -22,10 +22,10 @@ export default function WebsiteTaskbar(props) {
               <span onClick={() => handleClick('programs')}>Programs</span>
               <List>
                 <List.Item icon={<Network3 />} onClick={() => handleClick('etf')}>
-                  <span>ETF Network</span>
+                  <span>Netborn</span>
                 </List.Item>
                 <List.Item icon={<Explore />} onClick={() => handleClick('terrabit')}>
-                  TerraBit
+                  <span>Lore</span>
                 </List.Item>
               </List>
             </List.Item>
@@ -33,7 +33,7 @@ export default function WebsiteTaskbar(props) {
               <span>Documents</span>
               <List>
                 <List.Item>
-                  ETF Network Tech Docs
+                  Netborn Docs
                 </List.Item>
                 <List.Item>
                   Whitepaper

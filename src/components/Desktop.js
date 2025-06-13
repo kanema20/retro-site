@@ -63,21 +63,21 @@ function WebsiteDesktop(props) {
         <>
         <Modal
             icon={<FlyingThroughSpace100 />}
-            title={`idealabs.network`}
+            title={`netbǒrn.network`}
             style={{
                 left: isMobile ? '5%' : '10%',
                 top: isMobile ? '3%' : '5%',
                 width: isMobile ? '90%' : 450,
             }}>
             <div className='centered'>
-                <span className='title'>Ideal Labs</span>
+                <span className='title'>netbǒrn</span>
                 
                 <div className='links'>
-                    <a target='_blank' rel="noreferrer" href='https://github.com/ideal-lab5'>Github</a>
+                    <a target='_blank' rel="noreferrer" href='https://github.com/netbǒrn'>Github</a>
                     |
-                    <a target='_blank' rel="noreferrer" href='https://discord.gg/4fMDbyRw7R'>Discord</a>
+                    <a target='_blank' rel="noreferrer" href='https://discord.gg'>Discord</a>
                     |
-                    <a target='_blank' rel="noreferrer" href='https://ideallabs.substack.com'>Substack</a>
+                    <a target='_blank' rel="noreferrer" href='https://netbǒrn.substack.com'>Substack</a>
                 </div>
             </div>
         </Modal>

@@ -25,22 +25,22 @@ function Contact() {
                 <h2>Contact</h2>
                 <div className='contact-container'>
                     <div className='contact'>
-                        <Mailto email="hello@idealabs.network" subject="Hello">
+                        <Mailto email="hello@netborn.network" subject="Hello">
                             <Mail3 />
                             <span>
-                                hello@idealabs.network
+                                hello@netborn.network
                             </span>
                         </Mailto>
 
                     </div>
                     <div className='contact'>
-                        <a target='_blank' rel="noreferrer" href='https://discord.gg/4fMDbyRw7R'>
+                        <a target='_blank' rel="noreferrer" href='https://discord.gg/'>
                             <Chatshow3000 />
                             Discord
                         </a>
                     </div>
                     <div className='contact'>
-                        <a target='_blank' rel="noreferrer" href='https://twitter.com/Ideallabs0'>
+                        <a target='_blank' rel="noreferrer" href='https://twitter.com/Netborn0'>
                             <Network2 />
                             Twitter
                         </a>

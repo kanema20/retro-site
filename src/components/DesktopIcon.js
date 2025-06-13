@@ -16,7 +16,7 @@ function DesktopIcon({ ico, text, eventType }) {
             setWaitingClick(null);
             switch (eventType) {
                 case 'terrabit':
-                    window.open('https://terrabit.idealabs.network');
+                    window.open('https://terrabit.netborn.network');
                     break;
                 default:
                     EventEmitter.dispatch(eventType, true);
